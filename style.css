@@ -15,8 +15,11 @@ nav{
 	padding: 1px;
 }
 nav h1{
+	/*Set navbar h1 font*/	
 	font-family: 'Open Sans', sans-serif;
-	font-size: 72px;
+	/*Size of font determined by viewport width*/	
+    font-size: 3.5vw;
+	/*Makes font light*/	
 	font-weight: 300;
 }
 nav a{
