@@ -1,0 +1,45 @@
+body{
+	/*Set font*/
+	font-family: 'Open Sans', sans-serif;
+	background-color: #FFF;
+	text-align: center;
+}
+nav{
+	/*Set navbar background colour*/
+	background-color: #333;
+	/*Set navbar font colour*/	
+	color: #FFF;
+	/*Make text center aligned*/	
+	text-align: center;
+	/*Gives padding*/	
+	padding: 1px;
+}
+nav h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 72px;
+	font-weight: 300;
+}
+nav a{
+	/*Set navbar link font colour*/	
+	color: #FFF;
+	display: block;
+	/*Gives padding*/	
+	padding: 12px 20px;
+	/*Prevents links being underlined*/	
+	text-decoration: none;
+}
+nav ul{
+	/*Makes alignment work*/
+	margin: 0;
+	padding: 0;
+}
+nav li{
+	/*Makes alignment work*/
+	display: inline-block;
+}
+li a:hover:not(.navactive) {
+	background-color: #1A8008;
+}
+.navactive {
+	background-color: #222;
+}
