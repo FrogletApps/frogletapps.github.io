@@ -6,7 +6,7 @@ body{
 }
 nav{
 	/*Set navbar background colour*/
-	background-color: #333;
+	background-color: #242;
 	/*Set navbar font colour*/	
 	color: #FFF;
 	/*Make text center aligned*/	
@@ -41,8 +41,8 @@ nav li{
 	display: inline-block;
 }
 li a:hover:not(.navactive) {
-	background-color: #1A8008;
+	background-color: #180;
 }
 .navactive {
-	background-color: #222;
+	background-color: #232;
 }
