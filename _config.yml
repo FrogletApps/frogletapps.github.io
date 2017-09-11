@@ -1,0 +1,7 @@
+name: Froglet Apps (Beta)
+title: Froglet Apps (Beta)
+url: https://frogletapps.github.io
+baseurl: /
+
+plugins:
+    - jekyll-sitemap
