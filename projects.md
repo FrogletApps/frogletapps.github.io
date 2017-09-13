@@ -1,6 +1,6 @@
 ---
-title: Project Blog
-layout: blog
+title: Projects
+layout: default
 ---
 
-This part of the site will contain information about my projects
+Here are some of my projects:

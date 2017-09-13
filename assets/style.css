@@ -1,49 +1,90 @@
-body{
+/*WHOLE PAGE*/
+
+html, body{
 	/*Set font*/
 	font-family: 'Open Sans', sans-serif;
+	/*Set page background colour*/
 	background-color: #FFF;
+	/*Keep page center aligned*/
 	text-align: center;
-	border: 0;
+	/*Get rid of margin around page*/
+	margin: 0px;
 }
+
+
+/*NAV BAR*/
+
 nav{
+	/*Makes the padding even.*/
+	padding-top: 2%;
+}
+
+nav, nav a{
 	/*Set navbar background colour*/
 	background-color: #242;
 	/*Set navbar font colour*/	
 	color: #FFF;
-	/*Make text center aligned*/	
-	text-align: center;
-	/*Gives padding*/	
-	padding: 1px;
-}
-nav h1{
-	/*Set navbar h1 font*/	
-	font-family: 'Open Sans', sans-serif;
-	/*Size of font determined by viewport width*/	
-	font-size: 7vmin;
-	/*Makes font light*/	
-	font-weight: 300;
-}
-nav a{
-	/*Set navbar link font colour*/	
-	color: #FFF;
-	display: block;
-	/*Gives padding*/	
-	padding: 12px 20px;
 	/*Prevents links being underlined*/	
 	text-decoration: none;
 }
+
+nav li a:hover {
+	/*Background colour of links when hovering*/
+	background-color: #180;
+}
+
+nav a, li{
+	/*Gives padding*/	
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+nav a{
+	/*Gives padding*/	
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
 nav ul{
 	/*Makes alignment work*/
 	margin: 0;
 	padding: 0;
 }
+
 nav li{
 	/*Makes alignment work*/
-	display: inline-block;
+	display: inline-block;	
 }
-li a:hover:not(.navactive) {
-	background-color: #180;
+
+nav h1{
+	/*Set navbar background colour*/
+	background-color: #242;
+	/*Size of font determined by viewport width*/	
+	font-size: 5vmin;
+	/*Makes font light*/	
+	font-weight: 300;
+	/*Keeps a border around the content part of the site*/
+	margin-left:5%;
+	margin-right:5%;
+	/*Keeps the nav bar more compact.  Top value is nav margin-top*/
+	margin-top: 0;
+	margin-bottom: 2%;
 }
-.navactive {
-	background-color: #232;
+
+
+
+/*CONTENT*/
+
+ul{
+	/*Removes bullet points*/
+	list-style-type: none;
+}
+
+.content{
+	/*Keeps a border around the content part of the site*/
+	margin: 30px;
+}
+
+.content h1{
+	line-height: 0.5em;
 }

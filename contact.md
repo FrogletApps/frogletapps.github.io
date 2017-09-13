@@ -3,7 +3,7 @@ title: Contact
 layout: default
 ---
 
-Feel free to contact us if you find a bug, want to suggest new features, or even if you just feel like it to be honest, do whatever you like really...
+Feel free to contact us if you want to suggest new features, find a bug, or if you just feel like getting in contact.
 
 Email: [frogletapps@outlook.com](mailto:frogletapps@outlook.com)
 <br>
