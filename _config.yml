@@ -3,5 +3,5 @@ title: Froglet Apps (Beta)
 url: https://frogletapps.github.io
 baseurl: /
 
-plugins:
+plugins_dir:
     - jekyll-sitemap

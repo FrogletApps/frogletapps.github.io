@@ -88,3 +88,14 @@ ul{
 .content h1{
 	line-height: 0.5em;
 }
+
+img{
+	/*Means images can never be larger than the page*/
+	max-width: 100%;
+	height: auto;
+}
+
+iframe{
+	/*Means iframe (basically just the youtube link) can never be larger than the page*/
+	max-width: 100%;
+}
