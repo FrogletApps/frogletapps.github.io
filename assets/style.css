@@ -99,3 +99,13 @@ iframe{
 	/*Means iframe (basically just the youtube link) can never be larger than the page*/
 	max-width: 100%;
 }
+
+.blogPost{
+	background-color: #dfd;
+	padding: 10px;
+}
+
+.blogPost:hover {
+	/*Background colour of links when hovering*/
+	background-color: #afa;
+}
