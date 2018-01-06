@@ -33,7 +33,7 @@ nav li a:hover {
 	background-color: #180;
 }
 
-nav a, li{
+nav a, nav li{
 	/*Gives padding*/	
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -75,18 +75,9 @@ nav h1{
 
 /*CONTENT*/
 
-ul{
-	/*Removes bullet points*/
-	list-style-type: none;
-}
-
 .content{
 	/*Keeps a border around the content part of the site*/
 	margin: 30px;
-}
-
-.content h1{
-	line-height: 0.5em;
 }
 
 img{
@@ -96,16 +87,39 @@ img{
 }
 
 iframe{
-	/*Means iframe (basically just the youtube link) can never be larger than the page*/
+	/*Means iframe (just the youtube link) can never be larger than the page*/
 	max-width: 100%;
 }
 
 .blogPost{
-	background-color: #dfd;
-	padding: 10px;
+	/*background colour dfd*/
+	background-color: #802;
+	/*text colour*/
+	color: #fff;
+	border: 3px solid black;
+	/*Spacing*/
+	padding: 2px;
+	/*List sizing*/
+	min-width: 200px;
+	max-width: 60%;
+	/*Keep list central*/
+	margin: auto;
+	/*Curvy corners*/
+	border-radius: 20px;
 }
 
 .blogPost:hover {
-	/*Background colour of links when hovering*/
-	background-color: #afa;
+	/*Background colour of blog post links when hovering afa*/
+	background-color: #b44;
+}
+
+ul{
+	/*Removes bullet points and spacing on blog post list*/
+	list-style-type: none;
+	padding: 0;
+}
+
+li{
+	/*Spacing on blog post list*/
+	padding: 12px;
 }
