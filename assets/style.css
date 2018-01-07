@@ -80,6 +80,11 @@ nav h1{
 	margin: 30px;
 }
 
+.date{
+	font-style: italic;
+	font-size: 0.7em;
+}
+
 img{
 	/*Means images can never be larger than the page*/
 	max-width: 100%;
@@ -92,7 +97,7 @@ iframe{
 }
 
 .blogPost{
-	/*background colour dfd*/
+	/*background colour*/
 	background-color: #eee;
 	/*text colour*/
 	color: #000;
@@ -109,7 +114,7 @@ iframe{
 }
 
 .blogPost:hover {
-	/*Background colour of blog post links when hovering afa*/
+	/*Background colour of blog post links when hovering*/
 	background-color: #180;
 }
 
