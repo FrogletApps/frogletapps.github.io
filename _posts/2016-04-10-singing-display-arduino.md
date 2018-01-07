@@ -8,6 +8,6 @@ This is an Arduino project designed to sit on Team ROUSE's desk at the VEX World
 
 When the Arduino turns on one of the three programs is selected by how many tilts the Arduino counts in the first 10 seconds of being on.
 
-<iframe width="800px" height="450px" src="https://www.youtube.com/embed/?listType=playlist&list=PLjO-3UnT5kkNejoty_YNR9Mtvxme0lWQv" frameborder="0" allowfullscreen></iframe>
+<iframe width="800px" height="450px" src="https://www.youtube.com/embed/?listType=playlist&list=PLjO-3UnT5kkNejoty_YNR9Mtvxme0lWQv?rel=0" frameborder="0" allowfullscreen></iframe>
 
 See the code on GitHub:  [github.com/FrogletApps/VEX_Messages](https://github.com/FrogletApps/VEX_Messages)

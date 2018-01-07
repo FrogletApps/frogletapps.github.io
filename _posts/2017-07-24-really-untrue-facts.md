@@ -1,6 +1,6 @@
 ---
 title: Really Untrue Facts
-blurb: An Alexa fact skill to give you really untrue facts
+blurb: An Alexa skill to give you really untrue facts
 layout: default
 ---
 
