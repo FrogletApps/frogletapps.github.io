@@ -93,9 +93,9 @@ iframe{
 
 .blogPost{
 	/*background colour dfd*/
-	background-color: #802;
+	background-color: #eee;
 	/*text colour*/
-	color: #fff;
+	color: #000;
 	border: 3px solid black;
 	/*Spacing*/
 	padding: 2px;
@@ -110,7 +110,7 @@ iframe{
 
 .blogPost:hover {
 	/*Background colour of blog post links when hovering afa*/
-	background-color: #b44;
+	background-color: #180;
 }
 
 ul{
