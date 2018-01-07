@@ -2,6 +2,7 @@ name: Froglet Apps
 title: Froglet Apps
 url: https://frogletapps.github.io
 baseurl: /
+permalink: /:categories/:title/
 
 plugins_dir:
     - jekyll-sitemap
